@@ -9,7 +9,7 @@ Sistema em Flask com:
 ## Como Executar
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/](https://github.com/)SAUL-ALVES/web1-auth-Saul_Matheus.git
+git clone https://github.com/SAUL-ALVES/web1-auth-Saul_Matheus.git
 cd web1-auth-Saul_Matheus
 
 # 2. Crie e ative o ambiente virtual
