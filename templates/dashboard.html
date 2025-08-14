@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard Protegido</h1>
+    <p>Olá, <strong>{{ user.username }}</strong>! Seu acesso foi validado.</p>
+    <p>Sua permissão é: <strong>{{ user.role }}</strong></p>
+    <br>
+    <a href="{{ url_for('logout') }}">Sair (Logout)</a>
+</body>
+</html>
